@@ -1,3 +1,5 @@
+// https://github.com/mleivarobles/POO_Java
+
 public class MainMascota {
 
     public static void main(String[] args) {
@@ -17,5 +19,12 @@ public class MainMascota {
         masc1.mostrarInfo();
         masc2.mostrarInfo();
         Vilumilla.mostrarInfo();
+
+        masc1.setNombre("Copito");
+        masc1.mostrarInfo();
+        System.out.println("Mi perro se llama " + masc1.getNombre());
+
+        System.out.println(masc1);
+        System.out.println(masc2);
     }
 }

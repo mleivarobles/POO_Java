@@ -27,4 +27,19 @@ public class Mascota {
     void mostrarInfo(){
         System.out.println(nombre + " es de raza " + raza + " y tiene " + edad + " años de edad");
     }
+
+    // Setters  y Getters
+
+    void setNombre(String newNombre){
+        this.nombre = newNombre;
+    }
+
+    String getNombre(){
+        return this.nombre;
+    }
+
+    @Override
+    public String toString() {
+        return "Mascota [nombre=" + nombre + ", raza=" + raza + ", edad=" + edad + "]";
+    }
 }
