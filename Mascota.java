@@ -1,18 +1,30 @@
-/**
- * Mascota
- */
 public class Mascota {
-    //Atributos
+
     String nombre;
     String raza;
-    int edad;
+    int edad; //float, double
 
-    //Metodos
+    // ctrl + . (al mismo tiempo)
+    
     void comer(){
         System.out.println(nombre + " está comiendo");
     }
+    
+    public Mascota() {
+    }
 
-    void jugar(){
-        System.out.println(nombre + " está jugando");
+    public Mascota(String nombre) {
+        this.nombre = nombre;
+    }
+
+    //Constructores
+    public Mascota(String nombre, String raza, int edad) {
+        this.nombre = nombre;
+        this.raza = raza;
+        this.edad = edad;
+    }
+
+    void mostrarInfo(){
+        System.out.println(nombre + " es de raza " + raza + " y tiene " + edad + " años de edad");
     }
 }
