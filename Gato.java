@@ -20,9 +20,4 @@ public class Gato extends MascotaClase {
             return super.toString() + " | y es calle";
         }
     }
-
-    
-
-    
-    
 }
