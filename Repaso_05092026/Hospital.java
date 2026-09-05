@@ -12,6 +12,6 @@ public class Hospital {
 
     @Override
     public String toString() {
-        return "Hospital [nombre=" + nombre + ", ciudad=" + ciudad + ", cantidadPiezas=" + cantidadPiezas + "]";
+        return "Hospital [nombre=" + nombre + ", ciudad=" + ciudad + ", cantidadPiezas=" + cantidadCamas + "]";
     }
 }
