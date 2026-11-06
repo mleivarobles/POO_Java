@@ -7,10 +7,9 @@ Ejemplo integrador: Cafetería Universitaria aplicando SRP, OCP y DIP paso a pas
 
 ```
 Clase13/
-├── Antes/
-│   ├── Bebida.java              # Viola SRP, OCP y DIP
-│   ├── PedidoCafeteria.java     # Acoplado a Bebida (concreto)
-│   └── Main.java
+├── Bebida.java              # No cumple SRP, OCP y DIP
+|── PedidoCafeteria.java     # Acoplado a Bebida (concreto)
+|── Main.java
 │
 └── Despues/
     ├── Paso1_SRP/               # Separar responsabilidades
@@ -42,13 +41,6 @@ Clase13/
 ## Cómo compilar y ejecutar
 
 Todos los comandos se ejecutan desde la carpeta `Clase13`.
-
-### Antes (la versión que viola los 3 principios)
-
-```bash
-javac Antes/*.java
-java -cp Antes Main
-```
 
 ### Paso 1 — SRP
 
