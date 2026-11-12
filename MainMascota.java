@@ -26,5 +26,6 @@ public class MainMascota {
 
         System.out.println(masc1);
         System.out.println(masc2);
+        System.out.println("Se corrige el nombre de la clase Mueblería -> Nueble");
     }
 }
